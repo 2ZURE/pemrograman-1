@@ -1,0 +1,10 @@
+jari_jari = float(input())
+tinggi = float(input())
+print("Volume = %.2f" %(22/7 * jari_jari * jari_jari * tinggi)) 
+print("Luas = %.2f" %(2 * 22/7 * jari_jari * (jari_jari + tinggi)))
+print("Keliling = %.2f" %(2 * 22/7 * jari_jari))
+
+jari_jari, tinggi = map(float, input().split())
+print("Volume = %.2f" %(22/7 * jari_jari * jari_jari * tinggi))
+print("Luas = %.2f" %((2 * 22/7 * jari_jari * (jari_jari + tinggi))))
+print("Keliling = %.2f" %((2 * 22/7 * jari_jari)))
